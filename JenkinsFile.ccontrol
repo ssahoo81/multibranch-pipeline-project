@@ -1,0 +1,27 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building..'
+                snDevOpsStep 'f9dbf90253d333007109ddeeff7b12f3'
+                sleep 10
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+                snDevOpsStep 'f5dbf90253d333007109ddeeff7b12f4'
+                sleep 10
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+                snDevOpsStep 'f1dbf90253d333007109ddeeff7b12f4'
+                sleep 10
+            }
+        }
+    }
+}
