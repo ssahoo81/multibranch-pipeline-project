@@ -9,7 +9,7 @@ public class SentimentAnalysisWebApp {
 	//main class
 	public static void main(String[] args) {
 		System.out.println("Starting SentimentAnalysisWebApp...");
-		System.out.println("hotfix");
+		System.out.println("hotfix1");
 		SpringApplication.run(SentimentAnalysisWebApp.class, args);
 	}
 }
