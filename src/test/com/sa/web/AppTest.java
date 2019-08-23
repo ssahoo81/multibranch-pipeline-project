@@ -5,10 +5,10 @@ import org.junit.Test;
 public class AppTest {
 // rrt   13411
     // Test
-    private String INPUT = "13412";
+    private String INPUT = "134121";
     @Test 
     public void testLength() { 
-        Assert.assertEquals(INPUT,"13412");  
+        Assert.assertEquals(INPUT,"134121");  
     }
 }
  
