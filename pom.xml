@@ -9,6 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>sentiment-analysis-web</name>
+	 <url>http://maven.apache.org</url>
 	<description>Web Application that just forwards the call to sentiment-analysis python api</description>
 
 	<parent>
